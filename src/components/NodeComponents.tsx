@@ -11,7 +11,7 @@ const automationColors = {
 
 export const PeopleAssigned = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [people, setPeople] = useState(['Bob', 'Sue']);
+  const [people, setPeople] = useState(['Tony', 'Richard', 'Will']);
   const [newPerson, setNewPerson] = useState('');
   const menuRef = useRef<HTMLDivElement>(null);
 
@@ -122,7 +122,7 @@ export const AutomationIndicator = () => {
 
 export const ApplicationsList = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [defaultApps] = useState(['Slack', 'Jira', 'GitHub', 'Gmail', 'Salesforce', 'Notion', 'Trello', 'Asana']);
+  const [defaultApps] = useState(['Jira', 'GitHub', 'Gmail', 'NetSuite', 'Slack']);
   const [selectedApps, setSelectedApps] = useState<string[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [customApp, setCustomApp] = useState('');

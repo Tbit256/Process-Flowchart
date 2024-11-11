@@ -6,11 +6,11 @@ import { PeopleAssigned, AutomationIndicator, ApplicationsList } from './NodeCom
 import { EditableLabel } from './EditableLabel';
 
 const nodeStyles = {
-  padding: '14px',
-  borderRadius: '5px',
-  fontSize: '12px',
+  padding: '8px',
+  borderRadius: '10px',
+  fontSize: '16px',
   color: '#222',
-  width: '180px',
+  width: '200px',
 };
 
 export const StartNode = memo(({ id, data }: NodeProps) => (

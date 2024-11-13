@@ -1,7 +1,6 @@
-import React, { memo } from 'react';
+import { memo } from 'react';
 import { Handle, Position, NodeProps } from 'reactflow';
 import { CircleOff, Circle, Diamond } from 'lucide-react';
-import { useStore } from '../store/flowStore';
 import { PeopleAssigned, AutomationIndicator, ApplicationsList } from './NodeComponents';
 import { EditableLabel } from './EditableLabel';
 

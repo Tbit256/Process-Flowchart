@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import { memo } from 'react';
 import { EdgeProps, getBezierPath } from 'reactflow';
 
 export const CustomEdge = memo(({
